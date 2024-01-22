@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-22 04:04:13.035621",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "program_name",
+  "faculty_department",
+  "column_break_chlm",
+  "program_abbreviaation",
+  "program_type",
+  "section_break_ofy3",
+  "total_hours_required_to_award_degree",
+  "entry_requirements",
+  "column_break_ob8r",
+  "study_language",
+  "starrting_year_of_program",
+  "section_break_pveh",
+  "delivery_mode",
+  "minimum_grade_requirements",
+  "column_break_ovi2",
+  "study_methods",
+  "date_of_programe_development"
+ ],
+ "fields": [
+  {
+   "fieldname": "program_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Program Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "faculty_department",
+   "fieldtype": "Link",
+   "label": "Faculty Department",
+   "options": "Faculty Departement",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_chlm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "program_abbreviaation",
+   "fieldtype": "Data",
+   "label": "Program Abbreviaation"
+  },
+  {
+   "fieldname": "program_type",
+   "fieldtype": "Link",
+   "label": "Program Type",
+   "options": "Academic Program Type"
+  },
+  {
+   "fieldname": "section_break_ofy3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_hours_required_to_award_degree",
+   "fieldtype": "Int",
+   "label": "Total Hours Required To Award Degree"
+  },
+  {
+   "fieldname": "entry_requirements",
+   "fieldtype": "Data",
+   "label": "Entry Requirements"
+  },
+  {
+   "fieldname": "column_break_ob8r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "study_language",
+   "fieldtype": "Select",
+   "label": "Study Language",
+   "options": "\nArabic\nEnglish"
+  },
+  {
+   "fieldname": "starrting_year_of_program",
+   "fieldtype": "Date",
+   "label": "Starrting Year of Program"
+  },
+  {
+   "fieldname": "section_break_pveh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "delivery_mode",
+   "fieldtype": "Select",
+   "label": "Delivery Mode",
+   "options": "\nFaculty Campus\nOnline"
+  },
+  {
+   "fieldname": "minimum_grade_requirements",
+   "fieldtype": "Data",
+   "label": "Minimum Grade Requirements"
+  },
+  {
+   "fieldname": "column_break_ovi2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "study_methods",
+   "fieldtype": "Data",
+   "label": "Study Methods"
+  },
+  {
+   "fieldname": "date_of_programe_development",
+   "fieldtype": "Date",
+   "label": "Date of Programe Development"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-23 02:09:46.905491",
+ "modified_by": "Administrator",
+ "module": "Academic Planning",
+ "name": "Academic Program a",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-22 03:05:49.589754",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hours_type",
+  "column_break_jkvy",
+  "number_of_hours"
+ ],
+ "fields": [
+  {
+   "fieldname": "hours_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Hours Type",
+   "options": "\nLecture\nPractical\nTutorial\nTraining",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jkvy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "number_of_hours",
+   "fieldtype": "Int",
+   "label": "Number of Hours"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-23 02:10:02.452509",
+ "modified_by": "Administrator",
+ "module": "Academic Planning",
+ "name": "Course Credit Hours",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

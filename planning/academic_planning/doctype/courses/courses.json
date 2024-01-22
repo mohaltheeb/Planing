@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-22 02:53:58.260222",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "course_name",
+  "course_code",
+  "language_of_teaching_the_course",
+  "image",
+  "column_break_beas",
+  "description",
+  "prepared_by",
+  "section_break_jkey",
+  "credit_hours",
+  "course_details_tab",
+  "table_itlw"
+ ],
+ "fields": [
+  {
+   "fieldname": "course_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Course Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "course_code",
+   "fieldtype": "Data",
+   "label": "Course Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "language_of_teaching_the_course",
+   "fieldtype": "Table MultiSelect",
+   "label": "Languages",
+   "options": "Course Language"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Course Image"
+  },
+  {
+   "fieldname": "column_break_beas",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Small Text",
+   "label": "Prepared By"
+  },
+  {
+   "fieldname": "section_break_jkey",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_hours",
+   "fieldtype": "Table",
+   "label": "Co Requistes",
+   "options": "Co Requisites"
+  },
+  {
+   "fieldname": "course_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Course Details"
+  },
+  {
+   "fieldname": "table_itlw",
+   "fieldtype": "Table",
+   "options": "Course Content"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-23 02:09:29.900803",
+ "modified_by": "Administrator",
+ "module": "Academic Planning",
+ "name": "Courses",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

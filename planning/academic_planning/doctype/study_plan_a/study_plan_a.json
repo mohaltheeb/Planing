@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-22 04:06:28.062120",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "study_plan_name",
+  "academic_program",
+  "program",
+  "faculty",
+  "number_of_courses",
+  "start_date",
+  "effective_year",
+  "study_plan_details_tab",
+  "table_wagb"
+ ],
+ "fields": [
+  {
+   "fieldname": "study_plan_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Study Plan Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "academic_program",
+   "fieldtype": "Link",
+   "label": "Academic Program",
+   "options": "Academic Program a"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Data",
+   "label": "Program"
+  },
+  {
+   "fieldname": "faculty",
+   "fieldtype": "Link",
+   "label": "Faculty",
+   "options": "Faculty"
+  },
+  {
+   "fieldname": "number_of_courses",
+   "fieldtype": "Data",
+   "label": "Number of courses",
+   "read_only": 1
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "effective_year",
+   "fieldtype": "Int",
+   "label": "Effective Year"
+  },
+  {
+   "fieldname": "study_plan_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Study plan Details"
+  },
+  {
+   "fieldname": "table_wagb",
+   "fieldtype": "Table",
+   "options": "Study Plan Courses"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-23 02:09:15.796698",
+ "modified_by": "Administrator",
+ "module": "Academic Planning",
+ "name": "Study Plan a",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

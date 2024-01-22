@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-22 03:39:43.110365",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "topic_name",
+  "column_break_stpo",
+  "number_of_weeks",
+  "section_break_rtfd",
+  "sub_topics_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "topic_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Topic Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_stpo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "number_of_weeks",
+   "fieldtype": "Int",
+   "label": "Number of Weeks"
+  },
+  {
+   "fieldname": "section_break_rtfd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_topics_list",
+   "fieldtype": "Text Editor",
+   "label": "Sub Topics List"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-23 02:10:29.236714",
+ "modified_by": "Administrator",
+ "module": "Academic Planning",
+ "name": "Topicss",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
